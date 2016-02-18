@@ -1,0 +1,42 @@
+<!DOCTYPE querys SYSTEM "query.dtd">
+<querys>
+
+    <query key="com.hoss.account.daoImpl.IBankCardDaoImpl.getCardList" processor="sql">
+        <value><![CDATA[
+        SELECT
+            k.pc_icon_url AS pcBankUrl,
+            k.icon_url AS bankUrl,
+            b.id AS bankId,
+            b. NAME AS owerName,
+            b.bank_name AS bankName,
+            b.bank_no AS cardNo,
+            b.is_default AS isDefaut
+        FROM
+            wallet_cus_bank_card b
+        JOIN bank k ON k.id = b.bank_id
+        AND b.wallet_cus_id =?
+        AND b.status =?
+        ]]></value>
+        <comments>
+           查询银行卡列表
+        </comments>
+    </query>
+
+    <query key="com.hoss.account.daoImpl.IBankCardDaoImpl.getDefaultBankCard" processor="sql">
+        <value><![CDATA[
+        SELECT
+            bb.bank_name AS bankName,
+            bb.bank_no AS cardNo,
+            bb.id AS bankId
+        FROM
+            wallet_cus_bank_card bb
+        WHERE
+            bb.wallet_cus_id =?
+        AND bb.status =?
+        AND bb.is_default =?
+        ]]></value>
+        <comments>
+            查询默认的银行卡
+        </comments>
+    </query>
+</querys>
