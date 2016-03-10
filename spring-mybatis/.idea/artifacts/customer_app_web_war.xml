@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="customer-app-web:war">
+    <output-path>F:/svn/深圳二手房/customer-app-web/target</output-path>
+    <root id="archive" name="customer-app-web.war">
+      <element id="artifact" artifact-name="customer-app-web:war exploded" />
+    </root>
+  </artifact>
+</component>

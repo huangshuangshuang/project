@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="customer-app-web" />
+        <module name="customer-base" />
+        <module name="customer-biz" />
+        <module name="customer-client" />
+        <module name="customer-mng-web" />
+        <module name="customer-schedule" />
+        <module name="official-admin-web" />
+        <module name="official-base" />
+        <module name="official-pc-web" />
+        <module name="official-schedule-web" />
+        <module name="scdhouse-biz" />
+        <module name="scdhouse-client" />
+        <module name="school.project" />
+        <module name="secondhand-biz" />
+        <module name="secondhand-client" />
+        <module name="secondhand-service" />
+        <module name="service-biz" />
+        <module name="service-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-biz" target="1.6" />
+      <module name="customer-biz" target="1.6" />
+      <module name="deal-biz" target="1.6" />
+      <module name="houses-biz" target="1.6" />
+      <module name="scdhouse-biz" target="1.6" />
+      <module name="secondhand-biz" target="1.6" />
+      <module name="secondhand-service" target="1.6" />
+      <module name="service-biz" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kbd-web:war">
+    <output-path>F:/svn/客倍多代码/kbd-web/branches/kbd-V2.0.5/kbd-web/target</output-path>
+    <root id="archive" name="kbd-web.war">
+      <element id="artifact" artifact-name="kbd-web:war exploded" />
+    </root>
+  </artifact>
+</component>

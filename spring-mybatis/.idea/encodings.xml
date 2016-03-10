@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-admin-web" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-auth-service" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-auth-service/auth-biz" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-auth-service/auth-client" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-base" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-deal-service" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-deal-service/deal-biz" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-deal-service/deal-client" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-houses-service" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-houses-service/houses-biz" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-houses-service/houses-client" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-pc-web" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-schedule-web" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-service" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-service/service-biz" charset="UTF-8" />
+    <file url="file://F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-service/service-client" charset="UTF-8" />
+    <file url="file://F:/svn/客倍多代码/kbd-admin/branches/kbd-V2.0.5/kbd-admin" charset="UTF-8" />
+    <file url="file://F:/svn/客倍多代码/kbd-center/trunk/kbdcenter" charset="UTF-8" />
+    <file url="file://F:/svn/客倍多代码/kbd-center/trunk/kbdcenter/kbd-interface" charset="UTF-8" />
+    <file url="file://F:/svn/客倍多代码/kbd-center/trunk/kbdcenter/kbd-service" charset="UTF-8" />
+    <file url="file://F:/svn/客倍多代码/kbd-web/branches/kbd-V2.0.5/kbd-web" charset="UTF-8" />
+  </component>
+</project>
+

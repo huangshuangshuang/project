@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="official-admin-web:war">
+    <output-path>F:/svn/官网pc&amp;学区房代码/branches/v1.0/haowu-official/official-admin-web/target</output-path>
+    <root id="archive" name="official-admin-web.war">
+      <element id="artifact" artifact-name="official-admin-web:war exploded" />
+    </root>
+  </artifact>
+</component>

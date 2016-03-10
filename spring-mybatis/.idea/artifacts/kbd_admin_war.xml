@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kbd-admin:war">
+    <output-path>F:/svn/客倍多代码/kbd-admin/branches/kbd-V2.0.5/kbd-admin/target</output-path>
+    <root id="archive" name="kbd-admin.war">
+      <element id="artifact" artifact-name="kbd-admin:war exploded" />
+    </root>
+  </artifact>
+</component>

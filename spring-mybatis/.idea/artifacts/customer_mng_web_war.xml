@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="customer-mng-web:war">
+    <output-path>F:/svn/深圳二手房/customer-mng-web/target</output-path>
+    <root id="archive" name="customer-mng-web.war">
+      <element id="artifact" artifact-name="customer-mng-web:war exploded" />
+    </root>
+  </artifact>
+</component>
