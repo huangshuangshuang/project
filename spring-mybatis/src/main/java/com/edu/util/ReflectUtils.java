@@ -2,21 +2,9 @@ package com.edu.util;
 
 import java.lang.reflect.Field;
 
-/**
- * Copyright (C), 2012-2015, 上海好屋网信息技术有限公司
- * Author:   黄双双
- * Date:     2016/3/7
- * Description:
- * <author>           <time>             <version>        <desc>
- * 黄双双           2016/3/7              00000001        创建文件
- */
+
 public class ReflectUtils {
-    /**
-     * 利用反射获取指定对象的指定属性
-     * @param obj 目标对象
-     * @param fieldName 目标属性
-     * @return 目标属性的值
-     */
+
     public static Object getFieldValue(Object obj, String fieldName) {
         Object result = null;
         Field field = ReflectUtils.getField(obj, fieldName);
@@ -32,12 +20,6 @@ public class ReflectUtils {
         return result;
     }
 
-    /**
-     * 利用反射获取指定对象里面的指定属性
-     * @param obj 目标对象
-     * @param fieldName 目标属性
-     * @return 目标字段
-     */
     private static Field getField(Object obj, String fieldName) {
         Field field = null;
         for (Class<?> clazz=obj.getClass(); clazz != Object.class; clazz=clazz.getSuperclass()) {
@@ -51,12 +33,6 @@ public class ReflectUtils {
         return field;
     }
 
-    /**
-     * 利用反射设置指定对象的指定属性为指定的值
-     * @param obj 目标对象
-     * @param fieldName 目标属性
-     * @param fieldValue 目标值
-     */
     public static void setFieldValue(Object obj, String fieldName,String fieldValue) {
 
         Field field = ReflectUtils.getField(obj, fieldName);
@@ -71,13 +47,6 @@ public class ReflectUtils {
         }
     }
 
-    /**
-     * 提取成员属性
-     * @param object 要提取属性的所有者
-     * @param type   要提取的类型
-     * @param <T>     提取的值(支取第一个符合条件的)
-     * @return
-     */
     public static <T> T findMemberByType (Object object,Class<T> type){
 
         if( null == type )
