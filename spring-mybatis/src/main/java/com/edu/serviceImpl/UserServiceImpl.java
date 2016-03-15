@@ -13,19 +13,17 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
-    @Override
+
     public User insert(User user) {
         return userMapper.insert(user);
     }
 
-    @Override
     public Page findAll(String name,Page page) {
         page.setQuery(name);
         page.setData(userMapper.findAll(page));
         return page;
     }
 
-    @Override
     public ResultDo<Page> findBySex(User user, Page page) {
         ResultDo<Page> resultDo=new ResultDo<Page>();
         page.setQuery(user);

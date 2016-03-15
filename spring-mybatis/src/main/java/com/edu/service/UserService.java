@@ -7,9 +7,9 @@ import com.edu.util.ResultDo;
 
 public interface UserService {
 
-    public User insert(User user);
+    User insert(User user);
 
-    public Page findAll(String name,Page page);
+    Page findAll(String name, Page page);
 
-    public ResultDo<Page> findBySex(User user,Page page);
+    ResultDo<Page> findBySex(User user, Page page);
 }

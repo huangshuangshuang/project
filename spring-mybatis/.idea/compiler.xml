@@ -48,10 +48,10 @@
       <module name="deal-biz" target="1.6" />
       <module name="houses-biz" target="1.6" />
       <module name="scdhouse-biz" target="1.6" />
+      <module name="school.project" target="1.5" />
       <module name="secondhand-biz" target="1.6" />
       <module name="secondhand-service" target="1.6" />
       <module name="service-biz" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
